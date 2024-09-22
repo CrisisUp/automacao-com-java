@@ -13,8 +13,8 @@ public class Main {
 		//executarAtalho(Arrays.asList(Key.WIN, "r"));
 		moverMouseNaTela(400, 34, true);
 		
-		//System.out.println(screen.getNumberScreens());
-		//System.out.println(Screen.getScreen(0));
+		System.out.println(screen.getNumberScreens());
+		System.out.println(Screen.getScreen(0));
 	}
 	
 	private static void moverMouseNaTela(int x, int y, boolean clicar) {
